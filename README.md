@@ -15,10 +15,10 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 
 ## Screenshot
-![Desktop Design](https://github.com/MJZtein/tailwind-recipe/blob/main/src/screenshots/desktop-design.png)
+![Desktop Design](https://github.com/MJZtein/sass-huddle/blob/main/src/screenshots/desktop-design.png?raw=true)
 
 ## Links
-Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/)
+Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/huddle-landing-page-react-vite-typescript-and-tailwind-ThelrJQw9p)
 Live Site URL: [Github Pages](https://mjztein.github.io/sass-huddle/)
 
 ## Build With

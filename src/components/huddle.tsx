@@ -33,17 +33,17 @@ const Huddle = () => {
       </main>
       <footer className="footer">
         <div className="social">
-          <a href="" className="icon-social">
+          <a href="#" className="icon-social">
             <FontAwesomeIcon className="fa-icon fa-facebook" icon={faFacebookF}/>
           </a>
-          <a href="" className="icon-social">
+          <a href="#" className="icon-social">
             <FontAwesomeIcon className="fa-icon fa-twitter" icon={faTwitter} />
           </a>
-          <a href="" className="icon-social">
+          <a href="#" className="icon-social">
             <FontAwesomeIcon  className="fa-icon fa-insta" icon={faInstagram} />
           </a>
         </div>
-      </footer>
+      
 
       <div>
         <p className="attribution">
@@ -55,6 +55,7 @@ const Huddle = () => {
           <a href="https://www.frontendmentor.io/home">MJZtein</a>.
         </p>
       </div>
+      </footer>
     </>
   );
 };

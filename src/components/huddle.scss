@@ -65,9 +65,11 @@ section {
 /* ------------------------- */
 
 .footer {
-  display: flex;
-  justify-content: center;
-  margin-top: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.9rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon-social {
@@ -152,17 +154,18 @@ section {
   }
 
   .footer {
-    justify-content: flex-end;
+    flex-direction: row-reverse;
+    justify-content: space-between;
     margin: 25px 3rem 0 0;
+
   }
 
   .icon-social {
     margin: 0 9px;
     padding: 8px;
   }
-
   .attribution {
-    margin-top: -1.5rem;
+    margin-top: -0.5rem;
     margin-left: -1.5rem;
     padding-top: 0;
     text-align: left;
