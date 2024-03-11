@@ -1,0 +1,170 @@
+// HTML Variables
+$fontBody: "Open Sans";
+$fontHeadings: "Poppins";
+$textColor: white;
+$colorVioletPrimary: hsl(257, 40%, 49%);
+$colorSoftMagentaPrimary: hsl(300, 69%, 71%);
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 375px;
+  background: $colorVioletPrimary url("../assets/images/bg-mobile.svg") top
+    center no-repeat;
+  margin: 0 auto;
+  padding: 2rem 2.15rem;
+  color: #fff;
+}
+
+header img {
+  width: 8rem;
+}
+
+h1 {
+  font-family: $fontHeadings;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+/* ------------------------- */
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 55px;
+  text-align: center;
+}
+
+.information {
+  padding: 3.75rem 0;
+}
+
+.information > p {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  margin-top: 15px;
+}
+
+.register {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #fff;
+  border-radius: 3.125rem;
+  color: $colorVioletPrimary;
+  padding: 10px 75px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.register:hover {
+  color: #fff;
+  background-color: $colorSoftMagentaPrimary;
+}
+
+/* ------------------------- */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.9rem;
+}
+
+.icon-social {
+  margin: 0 5px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  transition: color 0.3s;
+  font-size: 1rem;
+  padding: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.fa-facebook {
+  padding: 0 0.3rem;
+}
+
+.fa-twitter {
+  padding: 0 0.1rem;
+}
+
+.fa-insta {
+  padding: 0 0.2rem;
+}
+
+.icon-social:hover {
+  border: 1px solid $colorSoftMagentaPrimary;
+}
+
+.icon-social:hover .fa-icon {
+  color: $colorSoftMagentaPrimary;
+}
+
+.attribution {
+  padding: 2rem 1rem 0 2rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: $colorSoftMagentaPrimary;
+}
+
+@media (min-width: 1280px) {
+  body {
+    max-width: 1440px;
+    background: $colorVioletPrimary url("../assets/images/bg-desktop.svg")
+      no-repeat;
+    margin: 1.5rem;
+    padding: 2rem 3rem;
+    overflow: hidden;
+  }
+
+  header img {
+    width: 13rem;
+  }
+
+  section {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 85px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.75rem;
+  }
+
+  .information {
+    padding: 40px 100px 0 55px;
+    text-align: left;
+  }
+
+  .register {
+    margin-top: 1.5rem;
+    padding: 1rem 4rem;
+    font-size: 1.25rem;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.474);
+  }
+
+  .footer {
+    justify-content: flex-end;
+    margin: 25px 3rem 0 0;
+  }
+
+  .icon-social {
+    margin: 0 9px;
+    padding: 8px;
+  }
+
+  .attribution {
+    margin-top: -1.5rem;
+    margin-left: -1.5rem;
+    padding-top: 0;
+    text-align: left;
+  }
+}
