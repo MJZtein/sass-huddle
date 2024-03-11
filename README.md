@@ -1,30 +1,34 @@
-# React + TypeScript + Vite
+# Frontend Mentor - Huddle landing page with a single introductory section
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-Currently, two official plugins are available:
+# Table of Contents
+- [Overview](#overview)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Build With](#build-with)
+- [Author](#author)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
+### The challenge
+Users should be able to:
+- View the optimal layout for the site depending on their device's screen size
 
-## Expanding the ESLint configuration
+## Screenshot
+![Desktop Design](https://github.com/MJZtein/tailwind-recipe/blob/main/src/screenshots/desktop-design.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Links
+Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/)
+Live Site URL: [Github Pages](https://mjztein.github.io/sass-huddle/)
 
-- Configure the top-level `parserOptions` property like this:
+## Build With
+- ReactJS - Typescript
+- SASS
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Author
+Frontend Mentor - [@MJZtein](https://www.frontendmentor.io/profile/MJZtein)
