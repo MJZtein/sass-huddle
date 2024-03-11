@@ -136,13 +136,14 @@ section {
     font-size: 2.5rem;
   }
 
-  p {
+  .information > p {
     font-size: 1.1rem;
     line-height: 1.75rem;
+    
   }
 
   .information {
-    padding: 40px 100px 0 55px;
+    padding: 40px 70px 0 55px;
     text-align: left;
   }
 
@@ -165,7 +166,6 @@ section {
     padding: 8px;
   }
   .attribution {
-    margin-top: -0.5rem;
     margin-left: -1.5rem;
     padding-top: 0;
     text-align: left;
